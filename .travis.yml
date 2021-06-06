@@ -1,0 +1,26 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+scripts:
+  - yarn test
+notifications:
+  email:
+      recipients:
+        - mario.rodzp@gmail.com
+        - mario_rodz@outlook.com
+      on_success: always
+      on_failure: always
+deploy:
+  provider: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key:  0339f9c7-2b40-4b06-92e4-5ac37591fc11
+  app:  mkernel-travis-backend
+  on:
+    repo: mario-kernel/platzi-store-backend
