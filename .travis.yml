@@ -20,7 +20,8 @@ deploy:
   provider: heroku
   skip-cleanup: true
   keep-history: true
-  api_key:  0339f9c7-2b40-4b06-92e4-5ac37591fc11
+  api_key:
+    secure: "BuIk8UeM45qzQTxw0TKD5EUn1O5kFhTafYbcwElsJ7vvDunbBLnLBD3CGW8xcBe0ib+dcwZFBu4LajX9vlJK+eMinAMWHVPlj78Ee+Z/ERVowIcIk95U+XBQyOXiO90RWXXho1U+mfSPeqz4ctE6b9xktf5KdvD58J27fzUuUCgScJ+8cJp2erGjmDgiBfm+QVy26vFW3abzEyHcsDL4Ond8Tsq0/dsmLWGD0u0svYb9H/Mcp/R8qbvxr2ep9MYM52mGCO0dc11vBvakS09sctgCR7lCMIfP9YPl0LZV0onfFzxeCaKM+DUfLkvWJFD4jlATUJx3vDKxwgSEZ+CK7HZqnjSJXR5+1xM1TsyKn6AVJavzNIwK1jqjPQlOax5QYqITuE53UzFzlHLSWidy+dksdLch62k3e7Sp/JGDOu13N+zlPNqldiMvuHesyeFv2eOgCnxOq0/Pk+UvALpQMdsjMyUdLN2r0sbLnEmemTB0MI30ZlXBTHwdXF1ukj8MXb/qFMIbUZp2+Hl3v2H61iW8DlPKGk+ENS3Uif8FmVemmhT98NpWylHwvevnI3lFuJ6kUozHjN9ffX90zO19IuXmnyiJUTsnJ6mOt/46nF9vmw1WnRge7dzTW2puKzq1qRW/s/C3loLIH0Rf9QwBcXOrbsbkxeCmzqtstuqA2sI="
   app:  mkernel-travis-backend
   on:
     repo: mario-kernel/platzi-store-backend
